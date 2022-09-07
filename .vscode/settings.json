@@ -29,4 +29,23 @@
         "param": "", // param 开启函数参数自动提取 需要将光标放在函数行或者函数上方的空白行
         "return": "",
     },
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.profiles.windows": {
+    
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
 }
