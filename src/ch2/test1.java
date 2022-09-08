@@ -2,7 +2,7 @@
  * @Author: Zhaoyikun
  * @Date: 2022-09-07 15:51:59
  * @LastEditors: Zhaoyikun
- * @LastEditTime: 2022-09-07 18:33:25
+ * @LastEditTime: 2022-09-09 07:49:38
  * @FilePath: \FIRST\src\ch2\test1.java
  * @Description: 此文件为老师第三次课，课后作业
  * @custom_string_copyright: Copyright (c) by Zhaoyikun, All Rights Reserved. 
@@ -87,6 +87,7 @@ public class test1 {
         //calculate(); //第二问函数
         //compareValue(); //第三问函数
         //factorial(10); //第四问函数
+        System.out.println("bug out!");
     }
     
 }
